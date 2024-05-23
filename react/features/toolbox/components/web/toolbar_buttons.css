@@ -1,0 +1,93 @@
+.toolbox-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%
+}
+
+.new-toolbox {
+    bottom: calc((48px * 2) * -1);
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: bottom .3s ease-in;
+    width: 100%;
+    pointer-events: none;
+    z-index: 252;
+}
+@media (max-width: 500px) {
+    .toolbox-content-mobile .toolbox-content-wrapper {
+        display: block;
+        flex-direction: row;
+        margin: 0 0;
+        max-width: 100%
+    }
+}
+
+@media only screen and (max-width: 1610px) {
+    .toolbox-content-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0;
+        max-width: 100%
+    }
+}
+
+.premeeting-screen .content-controls #new-toolbox .toolbox-content-items {
+    background: 0 0;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 0;
+}
+
+.leftwatermark {
+    left: 14px;
+    top: 0px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hangup-menu-button {
+    background-color: #E54B4B;
+}
+
+.hangup-button {
+    background-color: #141414;
+}
+
+@media (max-width: 500px) {
+    .toolbox-content-mobile {
+        margin-bottom: 0;
+        flex-direction: column
+    }
+}
+
+.premeeting-screen .content-controls #new-toolbox .toolbox-content-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    content-visibility: hidden;
+}
+
+.invite-more-button {
+    background: transparent;
+}
+
+@media (hover:hover) and (pointer:fine){.invite-more-button:hover{background:transparent}}
+
+.toolbox-content {
+    align-items: center;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 250;
+    pointer-events: none;
+}
+.ads_buttons {
+    display: flex;
+    flex-direction: row
+}
+.ads_buttons-mobile {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,36 @@
+.alignment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.showImg {
+    height: 30px;
+    width: 40px;
+}
+
+.hTag {
+    color: #FFFFFF !important;
+}
+.displayBox {
+    background-color: rgba(26, 26, 26, 0.71);
+    color: #000000;
+    padding: 5px;
+    border-radius: 0 6px 6px 0;
+    height: fit-content;
+}
+.shop {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.divPadding {
+    padding: 10px;
+}
+
