@@ -40,8 +40,6 @@ export const LeaveConferenceButton = (props: IProps) => {
     const onLeaveConference = useCallback(() => {
         sendAnalytics(createToolbarEvent('hangup'));
         dispatch(leaveConference());
-        const invite = `https://cm3.centralus.cloudapp.azure.com/#/tokChat`;
-        window.location.href =`${invite}`;
         window.parent.postMessage('refresh', '*');
     }, [ dispatch ]);
 

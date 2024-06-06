@@ -51,8 +51,6 @@ export default class AbstractKickRemoteParticipantDialog
             }));
 
         dispatch(kickParticipant(participantID));
-        const invite = `https://cm3.centralus.cloudapp.azure.com/#/tokChat`;
-        window.location.href =`${invite}`;
         window.parent.postMessage('refresh', '*');
         return true;
     }

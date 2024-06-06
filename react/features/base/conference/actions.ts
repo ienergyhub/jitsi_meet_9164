@@ -640,8 +640,6 @@ export function endConference() {
         const { conference } = getConferenceState(toState(getState));
 
         conference?.end();
-        const invite = `https://cm3.centralus.cloudapp.azure.com/#/tokChat`;
-        window.location.href =`${invite}`;
         window.parent.postMessage('refresh', '*');
     };
 }
