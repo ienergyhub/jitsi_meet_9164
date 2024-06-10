@@ -75,7 +75,7 @@ export function hangup(requestFeedback = false, feedbackTitle?: string) {
                 setTimeout(res, 1000);
             });
         }
-
+        window.parent.postMessage('refresh', '*');
         return APP.conference.hangup(requestFeedback, feedbackTitle);
     };
 }

@@ -27,7 +27,6 @@ MiddlewareRegistry.register(store => next => action => {
                 = getParticipantDisplayName(store.getState, participant.getId());
 
         dispatch(hangup(true, i18next.t('dialog.kickTitle', { participantDisplayName })));
-        window.parent.postMessage('refresh', '*');
         break;
     }
     }
