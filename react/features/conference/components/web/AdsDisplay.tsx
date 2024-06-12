@@ -85,7 +85,7 @@ const AdsDisplay = (props: IProps) => {
             const res = {
                 roomName: meetingName
             };
-            let webAdsData = await API.request('GET', `${TOK_PATH}/campaigns`, res, false);
+            let webAdsData = await API.request('GET', `${TOK_PATH}/campaigns`, res, true);
             if (cancel) {
                 return;
             }
