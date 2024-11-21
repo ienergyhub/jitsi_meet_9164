@@ -505,7 +505,7 @@ function _getDisplayName(state: Object, name?: string): string {
     // @ts-ignore
     const config = state['features/base/config'];
 
-    return name ?? (config?.defaultRemoteDisplayName || 'Polytok User');
+    return name ?? (config?.defaultRemoteDisplayName || 'Voxxle User');
 }
 
 /**

@@ -82,7 +82,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Add a meeting link",
-        "confirmAddLink": "Do you want to add a Polytok link to this event?",
+        "confirmAddLink": "Do you want to add a Voxxle link to this event?",
         "error": {
             "appConfiguration": "Calendar integration is not properly configured.",
             "generic": "An error has occurred. Please check your calendar settings or try refreshing the calendar.",
@@ -452,7 +452,7 @@
         "token": "token",
         "tokenAuthFailed": "Sorry, you're not allowed to join this call.",
         "tokenAuthFailedReason": {
-            "audInvalid": "Ivalid `aud` value. It should be `Polytok`.",
+            "audInvalid": "Ivalid `aud` value. It should be `Voxxle`.",
             "contextNotFound": "The `context` object is missing from the payload.",
             "expInvalid": "Invalid `exp` value.",
             "featureInvalid": "Invalid feature: {{feature}}, most likely not implemented yet.",
@@ -526,7 +526,7 @@
         "answer": "Answer",
         "audioCallTitle": "Incoming call",
         "decline": "Dismiss",
-        "productLabel": "from Polytok",
+        "productLabel": "from Voxxle",
         "videoCallTitle": "Incoming video call"
     },
     "info": {
@@ -732,7 +732,7 @@
         "dataChannelClosed": "Video quality impaired",
         "dataChannelClosedDescription": "The bridge channel has been disconnected and thus video quality is limited to its lowest setting.",
         "disabledIframe": "Embedding is only meant for demo purposes, so this call will disconnect in {{timeout}} minutes.",
-        "disabledIframeSecondary": "Embedding {{domain}} is only meant for demo purposes, so this call will disconnect in {{timeout}} minutes. Please use <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Polytok as a Service</a> for production embedding!",
+        "disabledIframeSecondary": "Embedding {{domain}} is only meant for demo purposes, so this call will disconnect in {{timeout}} minutes. Please use <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Voxxle as a Service</a> for production embedding!",
         "disconnected": "disconnected",
         "displayNotifications": "Display notifications for",
         "dontRemindMe": "Do not remind me",
@@ -780,7 +780,7 @@
         "noiseSuppressionDesktopAudioDescription": "Noise suppression can't be enabled while sharing desktop audio, please disable it and try again.",
         "noiseSuppressionFailedTitle": "Failed to start noise suppression",
         "noiseSuppressionStereoDescription": "Stereo audio noise suppression is not currently supported.",
-        "oldElectronClientDescription1": "You appear to be using an old version of the Polytok client which has known security vulnerabilities. Please make sure you update to our ",
+        "oldElectronClientDescription1": "You appear to be using an old version of the Voxxle client which has known security vulnerabilities. Please make sure you update to our ",
         "oldElectronClientDescription2": "latest build",
         "oldElectronClientDescription3": " now!",
         "participantWantsToJoin": "Wants to join the meeting",
@@ -1499,15 +1499,15 @@
         "go": "GO",
         "goSmall": "GO",
         "headerSubtitle": "Secure and high quality meetings",
-        "headerTitle": "Polytok",
+        "headerTitle": "Voxxle",
         "info": "Dial-in info",
-        "jitsiOnMobile": "Polytok on mobile – download our apps and start a meeting from anywhere",
+        "jitsiOnMobile": "Voxxle on mobile – download our apps and start a meeting from anywhere",
         "join": "CREATE / JOIN",
         "logo": {
             "calendar": "Calendar logo",
             "desktopPreviewThumbnail": "Desktop preview thumbnail",
             "googleLogo": "Google Logo",
-            "logoDeepLinking": "Polytok logo",
+            "logoDeepLinking": "Voxxle logo",
             "microsoftLogo": "Microsoft logo",
             "policyLogo": "Policy logo"
         },

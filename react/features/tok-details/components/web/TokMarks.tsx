@@ -170,7 +170,7 @@ class TokMarks extends Component<Props, State>  {
         // this.props.dispatch(toggleRequestingSubtitles());
         // this._handleClickOpenLanguageSelector();
         this.props.dispatch(showNotification({
-            titleKey: 'Tok mark has been ended',
+            titleKey: 'Vox mark has been ended',
             uid: SALESFORCE_LINK_NOTIFICATION_ID,
             appearance: NOTIFICATION_TYPE.NORMAL
         }, NOTIFICATION_TIMEOUT_TYPE.SHORT));
@@ -179,7 +179,7 @@ class TokMarks extends Component<Props, State>  {
 
 
     /**
-     * This method is used to notify the user as tok mark has been started.
+     * This method is used to notify the user as Vox mark has been started.
      */
     notifyUser() {
         // this.props.dispatch(toggleRequestingSubtitles());
@@ -188,7 +188,7 @@ class TokMarks extends Component<Props, State>  {
         }
         tokMarkEndTime =  this.addTimes();
             this.props.dispatch(showNotification({
-                titleKey: 'Tok mark has been started',
+                titleKey: 'Vox mark has been started',
                 uid: SALESFORCE_LINK_NOTIFICATION_ID,
                 appearance: NOTIFICATION_TYPE.NORMAL
             }, NOTIFICATION_TIMEOUT_TYPE.SHORT));

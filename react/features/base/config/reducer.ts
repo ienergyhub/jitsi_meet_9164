@@ -441,7 +441,7 @@ function _translateLegacyConfig(oldValue: IConfig) {
     }
 
     newValue.defaultRemoteDisplayName
-        = newValue.defaultRemoteDisplayName || 'Polytok User';
+        = newValue.defaultRemoteDisplayName || 'Voxxle User';
 
     newValue.transcription = newValue.transcription || {};
     if (oldValue.transcribingEnabled !== undefined) {

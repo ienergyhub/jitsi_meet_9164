@@ -54,7 +54,7 @@ const Whiteboard = (props: WithTranslation): JSX.Element => {
     const collabDetails = useSelector(getCollabDetails);
     const collabServerUrl = useSelector(getCollabServerUrl);
     const { defaultRemoteDisplayName } = useSelector((state: IReduxState) => state['features/base/config']);
-    const localParticipantName = useSelector(getLocalParticipant)?.name || defaultRemoteDisplayName || 'Polytok User';
+    const localParticipantName = useSelector(getLocalParticipant)?.name || defaultRemoteDisplayName || 'Voxxle User';
 
     useEffect(() => {
         if (!collabAPIRef.current) {

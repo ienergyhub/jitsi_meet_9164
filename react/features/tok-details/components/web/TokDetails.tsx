@@ -67,7 +67,7 @@ const TokDetails: React.FC<Props> = (props) => {
     const tokBytesTrigger = () => {
         return (
             <div className="BottomCollapse">
-                <div className="collapseTitle"><p className="collapseP">Tok
+                <div className="collapseTitle"><p className="collapseP">Vox
                     Bytes</p>
                     <div className="collapseIcon"><IconUpDownArrow/></div>
                 </div>
@@ -77,7 +77,7 @@ const TokDetails: React.FC<Props> = (props) => {
     const tokShopTrigger = () => {
         return (
             <div className="BottomCollapse">
-                <div className="collapseTitle"><p className="collapseP">Tok
+                <div className="collapseTitle"><p className="collapseP">Vox
                     Shop</p>
                     <div className="collapseIcon"><IconUpDownArrow/></div>
                 </div>
@@ -88,7 +88,7 @@ const TokDetails: React.FC<Props> = (props) => {
     function tokMarkTrigger() {
         return (
             <div className="BottomCollapse">
-                <div className="collapseTitle"><p className="collapseP">Tok
+                <div className="collapseTitle"><p className="collapseP">Vox
                     Marks</p>
                     <div className="collapseIcon"><IconUpDownArrow/></div>
                 </div>
