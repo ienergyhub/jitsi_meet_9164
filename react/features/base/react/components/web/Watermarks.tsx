@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { IReduxState } from '../../../../app/types';
 import { isVpaasMeeting } from '../../../../jaas/functions';
 import { translate } from '../../../i18n/functions';
+import jwt_decode from "jwt-decode";
 
 /**
  * The CSS style of the element with CSS class {@code rightwatermark}.
@@ -152,6 +153,8 @@ class Watermarks extends Component<IProps, State> {
      * @returns {ReactElement|null}
      */
     _renderJitsiWatermark() {
+        var jwt = APP.store.getState()['features/base/jwt'];
+        var jwtPayload = jwt_decode(jwt.jwt);
         const {
             _logoLink,
             _logoUrl,
@@ -164,7 +167,7 @@ class Watermarks extends Component<IProps, State> {
 
         if (_showJitsiWatermark) {
             const style = {
-                backgroundImage: `url(${_logoUrl})`,
+                backgroundImage: `url(${jwtPayload.logo})`,
                 position: _logoLink ? 'static' : 'absolute'
             } as const;
 
