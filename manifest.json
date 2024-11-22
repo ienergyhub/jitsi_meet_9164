@@ -11,17 +11,17 @@
   "name": "Polytok",
   "icons": [
     {
-      "src": "static/pwa/icons/polytok192.png",
+      "src": "static/pwa/icons/voxxle192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "static/pwa/icons/polytok512.png",
+      "src": "static/pwa/icons/voxxle512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "static/pwa/icons/polytok512.png",
+      "src": "static/pwa/icons/voxxle512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
