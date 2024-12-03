@@ -24,7 +24,7 @@ type Props = AbstractButtonProps & {
 class TokDetailsButton extends AbstractTokDetailsButton<Props> {
     accessibilityLabel = 'toolbar.accessibilityLabel.tokDetails';
     label = 'toolbar.tokDetails';
-    tooltip = 'TokDetails';
+    tooltip = 'VoxDetails';
 
     /**
      * Handles clicking / pressing the button, and opens a new window with the user documentation.
