@@ -168,13 +168,13 @@ const TokDetails: React.FC<Props> = (props) => {
                             <div className="transcriptHead" onClick={() => {
                                 if (isMobileBrowser()) {
                                     if (window.flutter_inappwebview) {
-                                        const args = 'https://custommeet4.centralus.cloudapp.azure.com/#/ProductDetailsPage/105088';
+                                        const args = 'https://custommeet4.centralus.cloudapp.azure.com/#/productDetailsPage/105088';
                                         window.flutter_inappwebview.callHandler('handleTokUrls', args);
                                     } else {
                                         console.log('InAppWebViewNotLoaded');
                                     }
                                 } else {
-                                    window.open('https://custommeet4.centralus.cloudapp.azure.com/#/ProductDetailsPage/105101');
+                                    window.open('https://custommeet4.centralus.cloudapp.azure.com/#/productDetailsPage/105101');
                                 }
 
                             }}>
